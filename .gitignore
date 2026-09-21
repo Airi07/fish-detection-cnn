@@ -1,0 +1,9 @@
+# Skip heavy image dataset folders
+FishDataset/
+
+# Skip large model weights exceeding GitHub's 100MB limit
+*.h5
+
+# Skip Python/Jupyter temporary files
+.ipynb_checkpoints/
+__pycache__/
